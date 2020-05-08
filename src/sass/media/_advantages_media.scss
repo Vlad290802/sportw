@@ -1,0 +1,35 @@
+@media (max-width: 991px){
+    .advantage{
+        &__descr {
+            margin-left: 9px;
+            margin-right: 9px;
+            font-size: 15px;
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    .advantage{
+        padding: 73px 0 98px 0;
+        justify-content: center;
+        align-items: center;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__header{
+            font-size: 30px;
+        }
+        &__subtitle{
+            margin-top: 15px;
+        }
+        &__descr {
+            text-align: inherit;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 991px){
+    .consultation{
+        &__descr{
+            font-size: 22px;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 767px){
+    .consultation{
+        &__descr{
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 575px){
+    .consultation{
+        &__descr{
+            font-size: 15px;
+        }
+    }
+}

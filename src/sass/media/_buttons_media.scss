@@ -1,0 +1,19 @@
+@media (max-width: 575px){
+    .button {
+        width: 120px;
+        height: 36px;
+        &_main{
+            margin-top: 67px;
+            width: 300px;
+            height: 50px;
+            font-size: 16px;
+        }
+    }
+    .button{
+        &_submit{
+            width: 100%;
+            height: 55px;
+            font-size: 16px;
+        }
+    }
+}
