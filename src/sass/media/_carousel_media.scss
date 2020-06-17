@@ -1,0 +1,110 @@
+@media (max-width: 1200px){
+   .carousel{
+        &__inner{
+            width: 500px;
+        }
+        .tns-item{
+            img{
+                width: 80%;
+            }
+        }
+        .prev, .next{
+            left: -6px;
+        }
+        .next{
+            right: -6px;
+            left: auto;
+        }
+        .tns-nav{
+            margin-top: 13px;
+            margin-bottom: 30px;
+            position: absolute;
+            bottom: -10%;
+            left: 50%;
+            transform:translateX(-50%) ;
+            button{
+                margin: 0 4px;
+                width: 5px;
+                height: 10px;
+                background-color: black;
+                border-radius: 100%;
+                border: none;
+            }
+            .tns-nav-active{
+                background-color: red;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .carousel{
+        &__inner{
+            width: 500px;
+        }
+        .tns-item{
+            img{
+                width: 80%;
+            }
+        }
+        .prev, .next{
+            display: none;
+        }
+        .next{
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            bottom: -10%;
+            left: 50%;
+            transform:translateX(-50%) ;
+            button{
+                margin: 0 4px;
+                width: 5px;
+                height: 10px;
+                background-color: black;
+                border-radius: 100%;
+                border: none;
+            }
+            .tns-nav-active{
+                background-color: red;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .carousel{
+        &__inner{
+            width: 70%;
+        }
+        .tns-item{
+            img{
+                width: 100%;
+            }
+        }
+        .prev, .next{
+            display: none;
+        }
+        .next{
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            bottom: -10%;
+            left: 50%;
+            transform:translateX(-50%) ;
+            button{
+                margin: 0 4px;
+                width: 5px;
+                height: 10px;
+                background-color: black;
+                border-radius: 100%;
+                border: none;
+            }
+            .tns-nav-active{
+                background-color: red;
+            }
+        }
+    }
+}

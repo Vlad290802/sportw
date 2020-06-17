@@ -1,0 +1,14 @@
+@media (max-width: 991px){
+    .catalog{
+        &__content{
+            margin-right: 10px;
+        }
+        &-item{
+            justify-content: center;
+        }
+        &__list{
+            margin-left: 40px;
+        }
+    }
+}
+
